@@ -1,0 +1,30 @@
+@media(max-width: 800px) {
+    .first-sec {
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: khaki;
+        .moi {
+            width: 90vw;
+            //height: 900px;
+            background-color: blue;
+            margin-bottom: 10px;
+            margin: 0 auto;
+            margin-top: 10px;
+            ;
+        }
+        .exp-edu {
+            .experience,
+            .education {
+                background-color: pink;
+                width: 90vw;
+                height: 700px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            .exp-details,
+            .edu-details {
+                padding: 20px;
+            }
+        }
+    }
+}

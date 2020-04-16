@@ -1,4 +1,102 @@
+hr {
+  border-top: 1px solid #E8E8E8;
+  padding: 0 10px;
+}
+
 body {
-  background-color: #E0E0E0;
+  background-color: #E8E8E8;
+}
+
+.first-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: gray;
+  width: 100vw;
+}
+
+.first-sec .moi {
+  background-color: #fff;
+  -webkit-box-shadow: 5px 10px 20px #888888;
+          box-shadow: 5px 10px 20px #888888;
+  width: 35vw;
+  height: 1670px;
+  margin-top: 20px;
+}
+
+.first-sec .moi-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+}
+
+.first-sec .exp-edu {
+  margin-top: 20px;
+}
+
+.first-sec .exp-edu .experience {
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 10px #888888;
+          box-shadow: 5px 5px 10px #888888;
+  margin-bottom: 10px;
+  width: 63vw;
+  height: 750px;
+}
+
+.first-sec .exp-edu .exp-details {
+  padding: 40px;
+}
+
+.first-sec .exp-edu .education {
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 10px #888888;
+          box-shadow: 5px 5px 10px #888888;
+  width: 63vw;
+  height: 750px;
+}
+
+.first-sec .exp-edu .edu-details {
+  padding: 40px;
+}
+
+i {
+  color: #0080ff;
+}
+
+@media (max-width: 800px) {
+  .first-sec {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: khaki;
+  }
+  .first-sec .moi {
+    width: 90vw;
+    background-color: blue;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .first-sec .exp-edu .experience,
+  .first-sec .exp-edu .education {
+    background-color: pink;
+    width: 90vw;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .first-sec .exp-edu .exp-details,
+  .first-sec .exp-edu .edu-details {
+    padding: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
