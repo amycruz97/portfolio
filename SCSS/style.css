@@ -3,6 +3,11 @@ hr {
   padding: 0 10px;
 }
 
+.first-sec .moi p,
+.first-sec .moi h3, time {
+  padding-left: 10px;
+}
+
 body {
   background-color: #E8E8E8;
 }
@@ -22,11 +27,12 @@ body {
   -webkit-box-shadow: 5px 10px 20px #888888;
           box-shadow: 5px 10px 20px #888888;
   width: 35vw;
-  height: 1670px;
   margin-top: 20px;
 }
 
-.first-sec .moi-details {
+.first-sec .moi-details,
+.first-sec .moi-skills,
+.first-sec .moi-languages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,11 +52,19 @@ body {
           box-shadow: 5px 5px 10px #888888;
   margin-bottom: 10px;
   width: 63vw;
-  height: 750px;
 }
 
 .first-sec .exp-edu .exp-details {
-  padding: 40px;
+  padding: 50px;
+}
+
+.first-sec .exp-edu .exp-details .exp-details-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .first-sec .exp-edu .education {
@@ -58,15 +72,34 @@ body {
   -webkit-box-shadow: 5px 5px 10px #888888;
           box-shadow: 5px 5px 10px #888888;
   width: 63vw;
-  height: 750px;
 }
 
 .first-sec .exp-edu .edu-details {
   padding: 40px;
 }
 
+.first-sec .exp-edu .edu-details .edu-details-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 i {
   color: #0080ff;
+}
+
+time {
+  color: #0080ff;
+}
+
+button {
+  background-color: #0080ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 17px;
 }
 
 @media (max-width: 800px) {
@@ -77,26 +110,25 @@ i {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    background-color: khaki;
+    background-color: #fff;
   }
   .first-sec .moi {
     width: 90vw;
-    background-color: blue;
+    background-color: #fff;
     margin-bottom: 10px;
     margin: 0 auto;
     margin-top: 10px;
   }
   .first-sec .exp-edu .experience,
   .first-sec .exp-edu .education {
-    background-color: pink;
+    background-color: #fff;
     width: 90vw;
-    height: 700px;
     margin: 0 auto;
     margin-bottom: 20px;
   }
   .first-sec .exp-edu .exp-details,
   .first-sec .exp-edu .edu-details {
-    padding: 20px;
+    padding: 30px 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
