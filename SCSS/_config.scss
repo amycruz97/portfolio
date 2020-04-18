@@ -10,3 +10,14 @@ $box-shadow:#888888;
 %p {
     padding-left: 10px;
 }
+
+%transform {
+    border-radius: 20px;
+    transition: 2s;
+    background-color: $secondary-color;
+    backface-visibility: hidden;
+    perspective: 100;
+    //transform: translate3d(0, 0, 0);
+    /* or */
+    //transform: translateZ(0);
+}

@@ -1,19 +1,9 @@
         @import 'config';
-        body {
-            // background-color: #E8E8E8;
-            //background-color: #E0E0E0;
-            //background-color: white;
-        }
-        
-        // .moi,
-        // .experience,
-        // .education {
-        //     background-color: $primary-color;
-        // }
+        @import 'skill';
         .first-sec {
             display: flex;
             justify-content: space-around;
-            background-color: #F5F5F5;
+            background-color: #F8F8F8;
             width: 100vw;
             //height: 100vh;
             .moi {
@@ -28,8 +18,7 @@
                 }
             }
             .moi-details,
-            .moi-skills,
-            .moi-languages {
+            .skills-icon {
                 display: flex;
                 align-items: center;
                 padding: 0 20px;

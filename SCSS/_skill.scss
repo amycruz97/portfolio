@@ -1,0 +1,62 @@
+.skill-bar {
+    width: 90%;
+    margin: 20px;
+    .progress-bar {
+        background-color: #F8F8F8;
+        color: $primary-color;
+        border-radius: 20px;
+        margin: 10px 0px;
+        padding: 2px 2px;
+        .html,
+        .css,
+        .javascript,
+        .react,
+        .vue,
+        .sass,
+        .git {
+            background-color: $secondary-color;
+            border-radius: 20px;
+            width: 30%;
+        }
+        span {
+            float: right;
+            font-size: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
+.html1 {
+    width: 80%;
+    @extend %transform;
+}
+
+.css1 {
+    width: 70%;
+    @extend %transform;
+}
+
+.jav1 {
+    width: 60%;
+    @extend %transform;
+}
+
+.react1 {
+    width: 40%;
+    @extend %transform;
+}
+
+.vue1 {
+    width: 20%;
+    @extend %transform;
+}
+
+.sass1 {
+    width: 50%;
+    @extend %transform;
+}
+
+.git1 {
+    width: 60%;
+    @extend %transform;
+}

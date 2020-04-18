@@ -8,13 +8,84 @@ hr {
   padding-left: 10px;
 }
 
+.html1, .css1, .jav1, .react1, .vue1, .sass1, .git1 {
+  border-radius: 20px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  background-color: #0080ff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 100;
+          perspective: 100;
+  /* or */
+}
+
+.skill-bar {
+  width: 90%;
+  margin: 20px;
+}
+
+.skill-bar .progress-bar {
+  background-color: #F8F8F8;
+  color: #fff;
+  border-radius: 20px;
+  margin: 10px 0px;
+  padding: 2px 2px;
+}
+
+.skill-bar .progress-bar .html,
+.skill-bar .progress-bar .css,
+.skill-bar .progress-bar .javascript,
+.skill-bar .progress-bar .react,
+.skill-bar .progress-bar .vue,
+.skill-bar .progress-bar .sass,
+.skill-bar .progress-bar .git {
+  background-color: #0080ff;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.skill-bar .progress-bar span {
+  float: right;
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.html1 {
+  width: 80%;
+}
+
+.css1 {
+  width: 70%;
+}
+
+.jav1 {
+  width: 60%;
+}
+
+.react1 {
+  width: 40%;
+}
+
+.vue1 {
+  width: 20%;
+}
+
+.sass1 {
+  width: 50%;
+}
+
+.git1 {
+  width: 60%;
+}
+
 .first-sec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #F5F5F5;
+  background-color: #F8F8F8;
   width: 100vw;
 }
 
@@ -27,8 +98,7 @@ hr {
 }
 
 .first-sec .moi-details,
-.first-sec .moi-skills,
-.first-sec .moi-languages {
+.first-sec .skills-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,8 +170,8 @@ button {
 
 .footer {
   background-color: #0080ff;
+  width: 100%;
   margin-top: 10px;
-  padding: 5px;
 }
 
 .footer p {
@@ -146,11 +216,18 @@ button {
     background-color: #fff;
     width: 90vw;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .first-sec .exp-edu .exp-details,
   .first-sec .exp-edu .edu-details {
     padding: 30px 20px;
+  }
+  .footer {
+    height: 150px;
+    padding-top: 5px;
+  }
+  .footer .footer-icons {
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
