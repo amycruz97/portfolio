@@ -1,0 +1,22 @@
+.footer {
+    background-color: $secondary-color;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    p {
+        text-align: center;
+        color: $primary-color;
+        font-size: 2rem;
+    }
+    .footer-icons {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footer-icons i {
+        color: $primary-color;
+        padding: 2px;
+    }
+    i:hover {
+        color: $text-color;
+    }
+}

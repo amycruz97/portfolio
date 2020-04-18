@@ -8,17 +8,13 @@ hr {
   padding-left: 10px;
 }
 
-body {
-  background-color: #E8E8E8;
-}
-
 .first-sec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: gray;
+  background-color: #F5F5F5;
   width: 100vw;
 }
 
@@ -100,6 +96,33 @@ button {
   color: #fff;
   border-radius: 5px;
   padding: 7px 17px;
+}
+
+.footer {
+  background-color: #0080ff;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.footer .footer-icons {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer .footer-icons i {
+  color: #fff;
+  padding: 2px;
+}
+
+.footer i:hover {
+  color: #000;
 }
 
 @media (max-width: 800px) {

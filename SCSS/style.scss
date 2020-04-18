@@ -1,6 +1,6 @@
         @import 'config';
         body {
-            background-color: #E8E8E8;
+            // background-color: #E8E8E8;
             //background-color: #E0E0E0;
             //background-color: white;
         }
@@ -13,7 +13,7 @@
         .first-sec {
             display: flex;
             justify-content: space-around;
-            background-color: gray;
+            background-color: #F5F5F5;
             width: 100vw;
             //height: 100vh;
             .moi {
@@ -86,4 +86,5 @@
             padding: 7px 17px;
         }
         
-        @import 'mobile'
+        @import 'footer';
+        @import 'mobile';
