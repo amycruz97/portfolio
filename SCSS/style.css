@@ -20,65 +20,6 @@ hr {
   /* or */
 }
 
-.skill-bar {
-  width: 90%;
-  margin: 20px;
-}
-
-.skill-bar .progress-bar {
-  background-color: #F8F8F8;
-  color: #fff;
-  border-radius: 20px;
-  margin: 10px 0px;
-  padding: 2px 2px;
-}
-
-.skill-bar .progress-bar .html,
-.skill-bar .progress-bar .css,
-.skill-bar .progress-bar .javascript,
-.skill-bar .progress-bar .react,
-.skill-bar .progress-bar .vue,
-.skill-bar .progress-bar .sass,
-.skill-bar .progress-bar .git {
-  background-color: #0080ff;
-  border-radius: 20px;
-  width: 30%;
-}
-
-.skill-bar .progress-bar span {
-  float: right;
-  font-size: 13px;
-  padding-right: 10px;
-}
-
-.html1 {
-  width: 80%;
-}
-
-.css1 {
-  width: 70%;
-}
-
-.jav1 {
-  width: 60%;
-}
-
-.react1 {
-  width: 40%;
-}
-
-.vue1 {
-  width: 20%;
-}
-
-.sass1 {
-  width: 50%;
-}
-
-.git1 {
-  width: 60%;
-}
-
 body {
   font-family: 'Alegreya Sans', sans-serif;
   line-height: 1.5;
@@ -90,11 +31,13 @@ h3,
 h4 {
   font-size: 30px;
   line-height: 1.2;
+  color: #000;
 }
 
 p {
   font-size: 17px;
   line-height: 1.5;
+  color: #000;
 }
 
 .first-sec {
@@ -186,10 +129,70 @@ button {
   padding: 7px 17px;
 }
 
+.skill-bar {
+  width: 90%;
+  margin: 20px;
+}
+
+.skill-bar .progress-bar {
+  background-color: #F8F8F8;
+  color: #fff;
+  border-radius: 20px;
+  margin: 10px 0px;
+  padding: 2px 2px;
+}
+
+.skill-bar .progress-bar .html,
+.skill-bar .progress-bar .css,
+.skill-bar .progress-bar .javascript,
+.skill-bar .progress-bar .react,
+.skill-bar .progress-bar .vue,
+.skill-bar .progress-bar .sass,
+.skill-bar .progress-bar .git {
+  background-color: #0080ff;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.skill-bar .progress-bar span {
+  float: right;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.html1 {
+  width: 80%;
+}
+
+.css1 {
+  width: 70%;
+}
+
+.jav1 {
+  width: 60%;
+}
+
+.react1 {
+  width: 40%;
+}
+
+.vue1 {
+  width: 20%;
+}
+
+.sass1 {
+  width: 50%;
+}
+
+.git1 {
+  width: 60%;
+}
+
 .footer {
   background-color: #0080ff;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
+  padding-top: 1px;
 }
 
 .footer p {
@@ -241,10 +244,10 @@ button {
     padding: 30px 20px;
   }
   .footer {
-    height: 150px;
-    padding-top: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
   }
-  .footer .footer-icons {
+  .footer-icons {
     padding-bottom: 10px;
   }
 }
