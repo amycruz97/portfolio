@@ -13,7 +13,8 @@
         .react,
         .vue,
         .sass,
-        .git {
+        .git,
+        .accessibility {
             background-color: $secondary-color;
             border-radius: 20px;
             width: 30%;
@@ -58,5 +59,11 @@
 
 .git1 {
     width: 60%;
+    @extend %transform;
+}
+
+
+.accessibility1 {
+    width: 70%;
     @extend %transform;
 }

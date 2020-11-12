@@ -20,10 +20,15 @@ var git = function() {
     document.querySelector('.git').className = "git1"
 }
 
+var accessibility = function() {
+    document.querySelector('.accessibility').className = "accessibility1"
+}
+
 setTimeout(html, 1000);
-setTimeout(css, 3000);
-setTimeout(javascript, 5000)
-setTimeout(react, 7000);
-setTimeout(vue, 9000);
-setTimeout(sass, 11000);
-setTimeout(git, 13000);
+setTimeout(css, 2000);
+setTimeout(javascript, 3000)
+setTimeout(vue, 4000);
+setTimeout(sass, 5000);
+setTimeout(git, 6000);
+setTimeout(accessibility, 7000);
+setTimeout(react, 8000);
